@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
+
+body {
+   text-align: center;
+    background-image: url('https://source.unsplash.com/random/');
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: black;
+    text-shadow: 
+        0 0 10px #fff, /* Outermost shadow */
+        0 0 20px #fff, /* Slightly larger shadow */
+        0 0 30px #fff, /* Even larger shadow */
+        0 0 40px #fff, /* Largest shadow */
+        0 0 50px #fff, /* Largest shadow */
+        0 0 60px #fff; /* Largest shadow */
+
+    
+}
+
+.clock {
+    font-size: 2em;
+    margin: 20px 0;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+    text-shadow: 
+        0 0 10px #fff, /* Outermost shadow */
+        0 0 20px #fff, /* Slightly larger shadow */
+        0 0 30px #fff, /* Even larger shadow */
+        0 0 40px #fff, /* Largest shadow */
+        0 0 50px #fff, /* Largest shadow */
+        0 0 60px #fff; /* Largest shadow */
+    
+}
+
+.quote {
+    font-style: italic;
+    margin: 20px 0;
+    font-family: "Miniver", sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 
+        0 0 10px #fff, /* Outermost shadow */
+        0 0 20px #fff, /* Slightly larger shadow */
+        0 0 30px #fff, /* Even larger shadow */
+        0 0 40px #fff, /* Largest shadow */
+        0 0 50px #fff, /* Largest shadow */
+        0 0 60px #fff; /* Largest shadow */
+}
+
+.search {
+    margin: 20px 0;
+}
+
+#search-bar {
+    width: calc(100% - 100px);
+    padding: 10px;
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.todo {
+    margin-top: 30px;
+}
+
+#todo-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: large;
+    border-radius: 22px;
+    border: 2px solid rebeccapurple;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: rgba(255, 255, 255, 0.1)    ;
+    color: black;
+    text-shadow: 
+        0 0 10px #fff, /* Outermost shadow */
+        0 0 20px #fff, /* Slightly larger shadow */
+        0 0 30px #fff, /* Even larger shadow */
+        0 0 40px #fff, /* Largest shadow */
+        0 0 50px #fff, /* Largest shadow */
+        0 0 60px #fff; /* Largest shadow */
+   
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-list li {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rebeccapurple;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 22px;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    text-shadow: 
+        0 0 10px #fff, /* Outermost shadow */
+        0 0 20px #fff, /* Slightly larger shadow */
+        0 0 30px #fff, /* Even larger shadow */
+        0 0 40px #fff, /* Largest shadow */
+        0 0 50px #fff, /* Largest shadow */
+        0 0 60px #fff; /* Largest shadow */
+
+}
+
+#todo-list li:hover {
+    background: #e0e0e0;
+}
+
+#day-of-week {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    text-shadow: 
+        0 0 10px #fff, /* Outermost shadow */
+        0 0 20px #fff, /* Slightly larger shadow */
+        0 0 30px #fff, /* Even larger shadow */
+        0 0 40px #fff, /* Largest shadow */
+        0 0 50px #fff, /* Largest shadow */
+        0 0 60px #fff; /* Largest shadow */
+    
+}
